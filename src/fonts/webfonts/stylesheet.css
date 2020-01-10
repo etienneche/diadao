@@ -64,13 +64,16 @@ nav {
 }
 
 nav a {
-  display: inline-block;
-
+  margin-right: 20px;
+  margin-left: 20px;
+   padding-right: 20px;
+  padding-left: 20px;
   color:#dd8d78;
   font-size: 19px;
 }
+
 nav a:hover {
-  font-size: 21px;
+
   text-decoration: none;
   color: #ae625f;
 }
@@ -97,12 +100,64 @@ nav a:hover {
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
 #call_to_act {
   padding-top: 30%;
 }
+/* BUTTON */
+
+.btn-2 {
+
+  cursor: pointer;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.btn-2 {
+  padding-top: 10%;
+  letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  color: white;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid white;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color:white;
+  transition: width 400ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
 .describe_offer {
   padding: 15vh 13vw;
-  display: flex;
   justify-content: center;
   width: 100vw;
 }
@@ -115,5 +170,10 @@ nav a:hover {
   height: 280px;
 }
 
+/* CALL2ACTION SECTION*/
 
-
+.now {
+  width: 100vw;
+  height: 80px;
+  background-color: grey;
+}
