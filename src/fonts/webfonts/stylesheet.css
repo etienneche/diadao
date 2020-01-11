@@ -9,9 +9,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'brandon_grotesquelight';
     src: url('brandon_light-webfont.woff2') format('woff2'),
@@ -21,9 +18,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'brandon_grotesquemedium';
     src: url('brandon_med-webfont.woff2') format('woff2'),
@@ -32,9 +26,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'linotype_didotroman';
@@ -52,6 +43,13 @@
 body {
   background-color: #8b962050;
 }
+
+.container {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 #main {
   background-color: #fcf8f2;
   margin-left: 0px !important;
@@ -59,6 +57,7 @@ body {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
 /* NAVBAR */
 nav {
   width: 100vw;
@@ -98,6 +97,7 @@ nav a:hover {
 }
 
 .banner p {
+  width:
   margin-left: 35px;
   font-size: 20px;
   color: white;
@@ -106,86 +106,68 @@ nav a:hover {
 }
 
 #call_to_act {
+  display: flex;
   padding-top: 95px;
 }
+#call_to_act a {
+  display: flex;
+  justify-content: center;
+}
 /* BUTTON */
+.Button {
+  background: 4px solid white;
+  border: none;
+  display: inline-block;
+  height: var(--button-height);
+  overflow: hidden;
+  padding: 0 40px;
+  position: relative;
+}
 
-.btn-2 {
-
+.Button,
+svg {
   cursor: pointer;
-  font-size:16px;
-  font-weight: 400;
-  line-height: 45px;
-  margin: 0 0 2em;
-  position: relative;
-  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 24px;
   text-transform: uppercase;
-  padding-top: 10%;
-  letter-spacing: 0;
-  color: white !important;
 }
 
-.btn-2:hover,
-.btn-2:active {
-  color: white;
-  text-decoration: none;
-}
-
-.btn-2:after,
-.btn-2:before {
-  backface-visibility: hidden;
-  border: 1px solid white;
-  bottom: 0px;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 280ms ease-in-out;
-  width: 0;
-}
-
-.btn-2:hover:after,
-.btn-2:hover:before {
-  backface-visibility: hidden;
-  border-color:white;
-  transition: width 400ms ease-in-out;
-  width: 70%;
-}
-
-.btn-2:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 70%;
-}
-
-.describe_offer {
+/* INTRO SECTION */
+.intro {
   display: flex;
   padding: 15vh 13vw;
   justify-content: center;
   width: 100vw;
 }
-.describe_offer h4 {
+
+.intro h4 {
   display: flex;
   justify-content: center;
   height: max-content;
   padding: 30px;
 }
-.describe_offer h4:hover {
+
+.intro h4:hover {
   transition: all .5s;
   transform: translateX(-10%);
 }
 
-.describe_offer p {
+.intro p {
   font-size: 16px;
   padding: 45px;
   background-color: #EFEFEF90;
 }
-.describe_offer p:hover {
+
+.intro p:hover {
   transition: all .5s;
   transform: translateX(10%);
 }
 
 /* OFFER SECTION */
+.row {
+  width: 100vw;
+  margin-left: 20px;
+}
 
 .dropdown {
   position: relative;
@@ -202,6 +184,7 @@ nav a:hover {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
@@ -209,6 +192,7 @@ nav a:hover {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-decoration: none;
   display: block;
+  transition: all .5s;
 }
 
 /* Change color of dropdown links on hover */
@@ -222,37 +206,55 @@ nav a:hover {
 }
 
 
-/**/
+/* Image card */
 .card img {
   object-fit: cover;
   object-position: top;
   height: 280px;
 }
 
+.card img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: .9;
+
+}
+
 .box_offer {
-  background-color: #e3d0c195;
   width: 50%;
   display: flex;
   margin: -45px auto;
   justify-content: center;
 }
 
-.dropdown-content a {
-  transition: all .5s;
-}
-/* CALL2ACTION SECTION*/
 
-.now {
+/* OTHER HOTELS */
 
+.other_H {
   margin-top: 280px;
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 200px;
+  height: 600px;
 }
-body .now {
+
+body .other_H {
   background-color: #fcf8f2 !important;
 }
-#main .now {
+
+#main .other_H {
   background-color: #8b962050 !important;
+}
+
+/* column style */
+.hotels img {
+
+  width: 700px;
+  margin: 40px;
+}
+#suite {
+  width: 600px;
+  margin: 40px;
 }
