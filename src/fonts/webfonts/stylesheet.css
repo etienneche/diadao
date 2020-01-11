@@ -49,8 +49,11 @@
 
 
 /* BODY */
-
-.container {
+body {
+  background-color: #8b962050;
+}
+#main {
+  background-color: #fcf8f2;
   margin-left: 0px !important;
   margin-right: 0px !important;
   padding-left: 0px !important;
@@ -59,21 +62,22 @@
 /* NAVBAR */
 nav {
   width: 100vw;
-  height: 80px;
-  background-color: #26171c99;
+  height: 90px;
+  background-color: white;
 }
-
+.topnav img {
+  margin-left: 35px;
+}
 nav a {
   margin-right: 20px;
   margin-left: 20px;
-   padding-right: 20px;
+  padding-right: 20px;
   padding-left: 20px;
-  color:#dd8d78;
+  color:#8B9620;
   font-size: 19px;
 }
 
 nav a:hover {
-
   text-decoration: none;
   color: #ae625f;
 }
@@ -87,7 +91,6 @@ nav a:hover {
 }
 
 .banner h1 {
-  margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
@@ -95,6 +98,7 @@ nav a:hover {
 }
 
 .banner p {
+  margin-left: 35px;
   font-size: 20px;
   color: white;
   opacity: .7;
@@ -102,7 +106,7 @@ nav a:hover {
 }
 
 #call_to_act {
-  padding-top: 30%;
+  padding-top: 95px;
 }
 /* BUTTON */
 
@@ -116,17 +120,15 @@ nav a:hover {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-
-}
-
-.btn-2 {
   padding-top: 10%;
   letter-spacing: 0;
+  color: white !important;
 }
 
 .btn-2:hover,
 .btn-2:active {
   color: white;
+  text-decoration: none;
 }
 
 .btn-2:after,
@@ -157,23 +159,100 @@ nav a:hover {
 }
 
 .describe_offer {
+  display: flex;
   padding: 15vh 13vw;
   justify-content: center;
   width: 100vw;
 }
+.describe_offer h4 {
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  padding: 30px;
+}
+.describe_offer h4:hover {
+  transition: all .5s;
+  transform: translateX(-10%);
+}
+
+.describe_offer p {
+  font-size: 16px;
+  padding: 45px;
+  background-color: #EFEFEF90;
+}
+.describe_offer p:hover {
+  transition: all .5s;
+  transform: translateX(10%);
+}
 
 /* OFFER SECTION */
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8b962099;
+  min-width: 160px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ae625f99;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/**/
 .card img {
   object-fit: cover;
   object-position: top;
   height: 280px;
 }
 
+.box_offer {
+  background-color: #e3d0c195;
+  width: 50%;
+  display: flex;
+  margin: -45px auto;
+  justify-content: center;
+}
+
+.dropdown-content a {
+  transition: all .5s;
+}
 /* CALL2ACTION SECTION*/
 
 .now {
+
+  margin-top: 280px;
+  display: flex;
+  justify-content: center;
   width: 100vw;
-  height: 80px;
-  background-color: grey;
+  height: 200px;
+}
+body .now {
+  background-color: #fcf8f2 !important;
+}
+#main .now {
+  background-color: #8b962050 !important;
 }
