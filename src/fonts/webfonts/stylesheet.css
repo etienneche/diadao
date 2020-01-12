@@ -14,7 +14,7 @@
   font-family: 'Libre Baskerville', serif;
 }
 .topnav a {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Raleway', sans-serif;
 }
 a:hover {
   text-decoration: none;
@@ -359,7 +359,7 @@ a:hover {
 }
 /*################ DESKTOP ##################*/
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:769px) and (max-width:1280px) {
   img {
     width: 100%;
   }
@@ -386,7 +386,7 @@ a:hover {
     margin-left: -130px;
   }
 
-  /* BANNER SECTION */
+/* BANNER SECTION */
   .section_header img {
     width: 100%;
     position: relative;
@@ -398,67 +398,78 @@ a:hover {
     margin-top: -43%;
   }
   .section_header h1 {
-    margin-left: 62.5%;
+    margin-left: 9.5%;
     color: #A9A9A9;
-    font-size: 20px;
+    font-size: 40px;
   }
   .section_header p {
-    margin-top: 1.000em;
-    margin-left: 0.625em;
-    margin-bottom: 1.000em;
+    margin-left: 4px;
     color: #566573;
-    font-size: 9px;
+    font-size: 24px;
+  }
+  .section_header a:hover {
+    background-color: #8b962090;
+    color: #fff;
   }
   .section_header .call_to_action a {
-    margin-left: 0.798em;
-    margin-top: 0.031em;
+    margin-left: 4px;
     color: #8b9620;
-    font-size: 16px;
+    font-size: 26px;
     border: 1px solid #8b9620;
     padding-top: 0.012em;
     padding-bottom: 0.012em;
-    padding-left: 0.153em;
-    padding-right: 0.153em;
+    padding-left: 4.153em;
+    padding-right: 4.153em;
   }
 
 /* INTRO SECTION */
   .intro h4 {
     margin: auto 55px;
-    margin-top: 10%;
+    margin-top: 6%;
     margin-bottom: 5%;
     color: #8b9620;
-    font-size: 18px;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px darkgrey;
   }
 
   .intro p {
-    margin: auto 55px;
-    margin-bottom: 15px;
+    margin: auto 9.438em;
+    margin-bottom: 21px;
     color: #ab7658;
-    font-size: 14px;
+    font-size: 17px;
   }
+
 /* CONTENT SECTION */
   .section_content {
-    background-color: #d6dc9d;
+    background-color: #8b962070;
   }
   .section_content img {
-    padding-top: 5%;
     width: 100%;
   }
 
   .section_content h4 {
     margin: auto 55px;
-    margin-top: 10%;
+    text-align: end;
+    margin-top: 6%;
     margin-bottom: 5%;
-    color: #8b9620;
-    font-size: 18px;
-
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px darkgrey;
   }
   .section_content p {
-    margin: auto 55px;
+    margin: auto 9.438em;
+    margin-bottom: 51px;
     color: #ab7658;
-    font-size: 14px;
+    font-size: 17px;
   }
 /* FEATURE SECTION */
+
+/* Grid system */
+
+/*******************/
+  .offers {
+
+  }
   .offers h3 {
     margin: auto 55px;
     margin-top: 10%;
