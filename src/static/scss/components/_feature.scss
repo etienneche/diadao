@@ -12,7 +12,7 @@
     }
 
     h4 {
-      margin: auto 55px;
+      margin-right: 25%;
       margin-top: 10%;
       margin-bottom: 5%;
       color: #8b9620;
@@ -34,6 +34,7 @@
    .btn, .btn-2 {
       display: flex;
       justify-content: space-evenly;
+      margin-bottom: 2em;
     }
   }
 
@@ -54,9 +55,12 @@
 }
 
 /* TABLET SECTION */
-@media only screen and (min-width:421px) and (max-width:768px) {
+@media only screen and (min-width:421px) and (max-width:1024px) {
   .offers {
 
+    .row {
+      margin-bottom: 6%;
+    }
     h3 {
       margin: auto 55px;
       margin-top: 10%;
@@ -66,7 +70,7 @@
     }
 
     h4 {
-      margin: auto 55px;
+      margin-right: 25%;
       margin-top: 10%;
       margin-bottom: 5%;
       color: #8b9620;
@@ -82,13 +86,13 @@
 
     img {
       display: block;
-      margin: 30px auto;
-      width: 80%;
+
 
     }
     .btn, .btn-2 {
       display: flex;
       justify-content: space-evenly;
+      margin-bottom: 2em;
     }
   }
 
@@ -98,8 +102,8 @@
     border: 1px solid #8b9620;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 
     &:hover {
       background-color: #8b9620;
@@ -111,7 +115,9 @@
 @media only screen and (min-width: 1025px) {
 
   .offers {
-
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
     h3 {
       margin: auto 55px;
       margin-top: 10%;
@@ -122,10 +128,12 @@
     }
 
     h4 {
-      width: max-content;
+      padding-bottom: 2rem;
+      display: flex;
+      justify-content: center;
       margin: auto 6px;
       margin-top: 10%;
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       color: #8b9620;
       font-size: 24px;
     }
@@ -143,12 +151,12 @@
 
     img {
       width: 100%;
-      margin-top: 50px;
     }
 
     .btn {
       display: flex;
       justify-content: space-evenly;
+      margin-bottom: 2em;
     }
   }
 
