@@ -1,45 +1,491 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 839 of src/static/scss/main.scss
+/* PHONE SECTION */
+@media only screen and (max-width: 420px) {
+  .section_header img {
+    width: 100%;
+    position: relative; }
+  .section_header .banner {
+    position: absolute;
+    width: 50%;
+    margin-top: -60%; }
+    .section_header .banner a {
+      margin-left: 5px;
+      margin-top: 5px;
+      color: #8b9620;
+      font-size: 10px;
+      border: 1px solid #8b9620;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 25px;
+      padding-right: 25px; }
+    .section_header .banner h1 {
+      margin-left: 25px;
+      color: #A9A9A9;
+      font-size: 20px; }
+    .section_header .banner p {
+      margin-top: 45px;
+      margin-left: 15px;
+      margin-bottom: 29px;
+      color: #566573;
+      font-size: 9px; } }
+/* TABLET SECTION */
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .section_header img {
+    width: 100%;
+    position: relative; }
+  .section_header .banner {
+    position: absolute;
+    width: 50%;
+    margin-top: -43%; }
+  .section_header h1 {
+    margin-left: 40.5%;
+    color: #A9A9A9;
+    font-size: 20px; }
+  .section_header p {
+    margin-top: 1.000em;
+    margin-left: 0.625em;
+    margin-bottom: 1.000em;
+    color: #566573;
+    font-size: 9px; }
+  .section_header .banner a {
+    margin-left: 0.798em;
+    margin-top: 0.031em;
+    color: #8b9620;
+    font-size: 16px;
+    border: 1px solid #8b9620;
+    padding-top: 0.012em;
+    padding-bottom: 0.012em;
+    padding-left: 1.153em;
+    padding-right: 1.153em; } }
+/* DESKTOP SECTION */
+@media only screen and (min-width: 1025px) {
+  .section_header img {
+    width: 100%;
+    position: relative; }
+  .section_header .banner {
+    position: absolute;
+    width: 50%;
+    margin-top: -43%; }
+  .section_header h1 {
+    margin-left: 9.5%;
+    color: #A9A9A9;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #566573; }
+  .section_header p {
+    margin-left: 4px;
+    color: #566573;
+    font-size: 24px; }
 
-834:   }
-835:   #img_nat:hover {
-836: 
-837:   }
-838: }
+  .section_header .banner a {
+    margin-left: 4px;
+    color: #8b9620;
+    font-size: 26px;
+    border: 1px solid #8b9620;
+    padding-top: 0.012em;
+    padding-bottom: 0.012em;
+    padding-left: 4.153em;
+    padding-right: 4.153em; }
+    .section_header .banner a:hover {
+      background-color: #8b962090;
+      color: #fff;
+      text-shadow: 1px 1px 2px #566573; } }
+/* MOBILE SECTION */
+@media only screen and (max-width: 420px) {
+  .intro h4 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 18px; }
+  .intro p {
+    margin: auto 55px;
+    margin-bottom: 15px;
+    color: #566573;
+    font-size: 14px; } }
+/* TABLET SECTION */
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .intro h4 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 18px; }
+  .intro p {
+    margin: auto 55px;
+    margin-bottom: 15px;
+    color: #566573;
+    font-size: 14px; } }
+/* DESKTOP SECTION */
+@media only screen and (min-width: 1025px) {
+  .intro h4 {
+    margin: 5rem;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #566573; }
+  .intro p {
+    margin: auto 9.438em;
+    margin-bottom: 4rem;
+    color: #566573;
+    font-size: 17px; } }
+/* MOBILE SECTION */
+@media only screen and (max-width: 420px) {
+  .section_content {
+    background-color: #d6dc9d; }
+    .section_content img {
+      padding-top: 5%;
+      width: 100%; }
+    .section_content h4 {
+      margin: auto 55px;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      color: #8b9620;
+      font-size: 18px; }
+    .section_content p {
+      margin: auto 55px;
+      color: #566573;
+      font-size: 14px; } }
+/* TABLET SECTION */
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .section_content {
+    background-color: #d6dc9d; }
+    .section_content img {
+      padding-top: 5%;
+      width: 100%; }
+    .section_content h4 {
+      margin: auto 55px;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      color: #8b9620;
+      font-size: 18px; }
+    .section_content p {
+      margin: auto 55px;
+      color: #566573;
+      font-size: 14px; } }
+/* DESKTOP SECTION */
+@media only screen and (min-width: 1025px) {
+  .section_content {
+    background-color: #8b962070; }
+    .section_content img {
+      width: 100%; }
+    .section_content h4 {
+      margin: 5rem;
+      margin-top: 6%;
+      margin-bottom: 5%;
+      color: #fff;
+      font-size: 34px;
+      text-shadow: 1px 1px 2px darkgrey; }
+    .section_content p {
+      margin: auto 9.438em;
+      margin-bottom: 4rem;
+      color: #566573;
+      font-size: 17px; } }
+/* MOBILE SECTION */
+@media only screen and (max-width: 420px) {
+  .offers h3 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #ab7658;
+    font-size: 22px; }
+  .offers h4 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 18px; }
+  .offers p {
+    margin: auto 55px;
+    margin-bottom: 12px;
+    color: #566573;
+    font-size: 14px; }
+  .offers img {
+    width: 100%;
+    margin-top: 50px; }
+  .offers .btn, .offers .btn-2 {
+    display: flex;
+    justify-content: space-evenly; }
 
-Backtrace:
-src/static/scss/main.scss:839
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:690:in `block'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:421:in `media_directive'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/home/etienne/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 839 of src/static/scss/main.scss\A \A 834:   }\A 835:   #img_nat:hover {\A 836: \A 837:   }\A 838: }"; }
+  .offers a {
+    color: #8b9620;
+    font-size: 16px;
+    border: 1px solid #8b9620;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .offers a:hover {
+      background-color: #8b9620;
+      color: #fff; } }
+/* TABLET SECTION */
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .offers h3 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #ab7658;
+    font-size: 22px; }
+  .offers h4 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 18px; }
+  .offers p {
+    margin: auto 55px;
+    margin-bottom: 12px;
+    color: #566573;
+    font-size: 14px; }
+  .offers img {
+    display: block;
+    margin: 30px auto;
+    width: 80%; }
+  .offers .btn, .offers .btn-2 {
+    display: flex;
+    justify-content: space-evenly; }
+
+  .offers a {
+    color: #8b9620;
+    font-size: 16px;
+    border: 1px solid #8b9620;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .offers a:hover {
+      background-color: #8b9620;
+      color: #fff; } }
+/*  DESKTOP SECTION */
+@media only screen and (min-width: 1025px) {
+  .offers h3 {
+    margin: auto 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #ab7658;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #566573; }
+  .offers h4 {
+    width: max-content;
+    margin: auto 6px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #8b9620;
+    font-size: 24px; }
+  .offers p {
+    text-align: right;
+    margin: auto 55px;
+    margin-bottom: 12px;
+    color: darkgrey;
+    font-size: 21px;
+    position: relative;
+    top: -40px;
+    color: #566573; }
+  .offers img {
+    width: 100%;
+    margin-top: 50px; }
+  .offers .btn {
+    display: flex;
+    justify-content: space-evenly; }
+
+  .offers a {
+    margin-bottom: 22px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #8b9620;
+    font-size: 16px;
+    border: 1px solid #8b9620;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    padding-right: 22px; }
+    .offers a:hover {
+      background-color: #8b962090;
+      color: #fff; } }
+/* MOBILE SECTION */
+@media only screen and (max-width: 420px) {
+  .section_sign_up {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    background-color: #d6dc9d;
+    padding-bottom: 10%; }
+    .section_sign_up a {
+      color: #fff;
+      font-size: 16px;
+      border: 1px solid #fff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      justify-content: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-left: 10%;
+      margin-right: 10%; }
+    .section_sign_up iframe {
+      margin-bottom: 20px; }
+
+  #img_nat {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    transition: all .5s; } }
+/* TABLET SECTION */
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .section_sign_up {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    background-color: #d6dc9d;
+    padding-bottom: 10%; }
+    .section_sign_up a {
+      text-align: center;
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      border: 1px solid #fff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 10%;
+      margin-bottom: 10%; }
+    .section_sign_up iframe {
+      margin-bottom: 20px;
+      width: 70%;
+      margin-right: 15%;
+      margin-left: 15%; }
+
+  #img_nat {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    transition: all .5s; } }
+/* DESKTOP SECTION */
+@media only screen and (min-width: 1025px) {
+  .section_sign_up {
+    width: 100%;
+    height: 400px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    background-color: #d6dc9d;
+    padding-bottom: 10%; }
+    .section_sign_up a {
+      color: #8b9620;
+      font-size: 16px;
+      border: 1px solid #8b9620;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 35%;
+      margin-right: 35%;
+      margin-top: 20%;
+      margin-bottom: 5%; }
+    .section_sign_up iframe {
+      margin-bottom: 20px;
+      width: 70%;
+      height: 180%;
+      margin-right: 15%;
+      margin-left: 15%;
+      position: relative; }
+
+  #img_nat {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    transition: all .5s; }
+
+  .btn_signup a {
+    display: flex;
+    justify-content: center;
+    margin-top: -18%;
+    margin-bottom: -18%; }
+    .btn_signup a:hover {
+      background-color: #8b962090;
+      color: #fff;
+      text-shadow: 1px 1px 2px #566573; } }
+body {
+  font-family: 'avant_gardedemiregular'; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNDQUFzQyxFQUN6QyIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICAgIGZvbnQtZmFtaWx5OiAnYXZhbnRfZ2FyZGVkZW1pcmVndWxhcic7XG59XG4iXX0= */
+/* CSS Etienne */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.page {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff; }
+
+.page h1, h2, h3, h4 {
+  font-family: 'Libre Baskerville', serif; }
+
+.topnav a {
+  font-family: 'Raleway', sans-serif; }
+
+a:hover {
+  text-decoration: none; }
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.menu {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  height: 100px; }
+
+.menu img {
+  width: 40%; }
+
+.topnav a {
+  color: #2C3E50;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.content {
+  height: 600px; }
+
+/*################ DESKTOP ##################*/
+@media only screen and (min-width: 1025px) {
+  img {
+    width: 100%; }
+
+  /* NAVBAR SECTION */
+  .navbar {
+    width: 100%; }
+
+  .topnav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px; }
+
+  .topnav a {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #2C3E50; }
+
+  .topnav a:hover {
+    color: #ab7658; }
+
+  .topnav img {
+    object-fit: contain;
+    margin-left: -130px; } }
+
+/*# sourceMappingURL=main.css.map */

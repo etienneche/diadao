@@ -46,7 +46,7 @@
 
     p {
       margin: auto 55px;
-      color: #ab7658;
+      color: #566573;
       font-size: 14px;
     }
   }
@@ -54,7 +54,7 @@
 
 /* DESKTOP SECTION */
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:1025px) {
   .section_content {
     background-color: #8b962070;
 
@@ -63,8 +63,7 @@
     }
 
     h4 {
-      margin: auto 55px;
-      text-align: end;
+      margin: 5rem;
       margin-top: 6%;
       margin-bottom: 5%;
       color: #fff;
@@ -73,8 +72,8 @@
     }
     p {
       margin: auto 9.438em;
-      margin-bottom: 51px;
-      color: #ab7658;
+      margin-bottom: 4rem;
+      color: #566573;
       font-size: 17px;
     }
   }
