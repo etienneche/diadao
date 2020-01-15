@@ -77,12 +77,37 @@ position:absolute;
 
 @media only screen and (max-width:768px) {
     #overlay { height:auto; }
+
+
+#content {
+  height: 50vh;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../img/assets/natural_slowlife.png");
+  background-color:#8b962099;
+  padding:2.5rem;
+  position:relative;
+  z-index:1;
+}
+
 }
 
 
 /* Visibility Helpers */
 
 @media only screen and (min-width:769px) {
+  #content {
+
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../img/assets/natural_slowlife.png");
+  background-color:#8b962099;
+  padding:2.5rem;
+  position:relative;
+  z-index:1;
+}
     .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
