@@ -22,3 +22,25 @@
   opacity: 1;
   color:#8b9620;
 }
+
+/* PUSH FOOTER ON BOTTOM PAGE */
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -90px;
+}
+/* TABLET SECTION */
+@media only screen and (min-width:421px) and (max-width:1024px) {
+.footer,
+ {
+  height: 80px;
+    margin-top: 33%;
+}
+}
+/* DESKTOP SECTION */
+@media only screen and (min-width:1025px) {
+.footer,
+ {
+  height: 80px;
+
+}
+}
