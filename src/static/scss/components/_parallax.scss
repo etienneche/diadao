@@ -2,16 +2,15 @@
 
 @media only screen and (min-width:769px) {
   #content {
-
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../../img/assets/natural_slowlife.png");
-  background-color:#8b962099;
-  padding:2.5rem;
-  position:relative;
-  z-index:1;
-}
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../img/assets/natural_slowlife.png");
+    background-color:#8b962099;
+    padding:2.5rem;
+    position:relative;
+    z-index:1;
+  }
     .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
@@ -49,58 +48,56 @@
 /* TABLET SECTION */
 @media only screen and (min-width:421px) and (max-width:1024px) {
   #content {
-  height: 100vh;
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../../img/assets/natural_slowlife.png");
-  background-color:#8b962099;
-  padding:2.5rem;
-  position:relative;
-  z-index:1;
-}
-#overlay {
-position:relative;
-transition:background-color 300ms ease;
-width:100%;
-}
-#hero-vid {
-background-position: center;
-backface-visibility:hidden;
-background:url("../../img/assets/suite6-354-15.jpg") no-repeat scroll 0 0 #000;
-background-size:cover;
-bottom:0;
-height:auto;
-min-height:100%;
-min-width:100%;
+    height: 100vh;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../img/assets/natural_slowlife.png");
+    background-color:#8b962099;
+    padding:2.5rem;
+    position:relative;
+    z-index:1;
+  }
+  #overlay {
+    position:relative;
+    transition:background-color 300ms ease;
+    width:100%;
+  }
+  #hero-vid {
+    background-position: center;
+    backface-visibility:hidden;
+    background:url("../../img/assets/suite6-354-15.jpg") no-repeat scroll 0 0 #000;
+    background-size:cover;
+    bottom:0;
+    height:auto;
+    min-height:100%;
+    min-width:100%;
+    position:fixed;
+    right:0;
+    width:auto;
+    z-index:-1;
+  }
 
-position:fixed;
-right:0;
-width:auto;
-z-index:-1;
-}
+  #hero-pic {
+    display:block;
+    height:60%;
+    width:100%;
+  }
 
-#hero-pic {
-display:block;
-height:60%;
-width:100%;
-}
-
-#state {
-bottom:0;
-cursor:pointer;
-font-size:2.25rem;
-left:0;
-line-height:1;
-padding:2rem 2.5rem 1.65rem;
-position:absolute;
-}
+  #state {
+    bottom:0;
+    cursor:pointer;
+    font-size:2.25rem;
+    left:0;
+    line-height:1;
+    padding:2rem 2.5rem 1.65rem;
+    position:absolute;
+  }
 }
 
 
 /* DESKTOP SECTION */
 @media only screen and (min-width: 1025px) {
-
 
 /* Overlay */
 
@@ -120,41 +117,38 @@ width:100%;
 /* Hero Video + Fallback */
 
 #hero-vid {
-background-position: center;
-backface-visibility:hidden;
-background:url("../../img/assets/suite6-354-15.jpg") no-repeat scroll 0 0 #000;
-background-size:cover;
-bottom:0;
-height:auto;
-min-height:100%;
-min-width:100%;
-
-position:fixed;
-right:0;
-width:auto;
-z-index:-1;
+  background-position: center;
+  backface-visibility:hidden;
+  background:url("../../img/assets/suite6-354-15.jpg") no-repeat scroll 0 0 #000;
+  background-size:cover;
+  bottom:0;
+  height:auto;
+  min-height:100%;
+  min-width:100%;
+  position:fixed;
+  right:0;
+  width:auto;
+  z-index:-1;
 }
 
 #hero-pic {
-display:block;
-height:60%;
-width:100%;
+  display:block;
+  height:60%;
+  width:100%;
 }
 
 #state {
-bottom:0;
-cursor:pointer;
-font-size:2.25rem;
-left:0;
-line-height:1;
-padding:2rem 2.5rem 1.65rem;
-position:absolute;
+  bottom:0;
+  cursor:pointer;
+  font-size:2.25rem;
+  left:0;
+  line-height:1;
+  padding:2rem 2.5rem 1.65rem;
+  position:absolute;
 }
 
 
 /* Content Styles */
-
-
 
 #content {
   height: 100vh;
@@ -166,6 +160,5 @@ position:absolute;
   padding:2.5rem;
   position:relative;
   z-index:1;
-}
-
+  }
 }

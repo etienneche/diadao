@@ -1,20 +1,20 @@
 
 .video {
-background-color: #8b962099;
-width: 100%;
-
+  background-color: #8b962099;
+  width: 100%;
 }
 
 iframe {
-      margin-bottom: 20px;
-      width: 70%;
+  margin-bottom: 20px;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  position: relative;
+}
 
-      margin-right: 15%;
-      margin-left: 15%;
-      position: relative;
-    }
 /* MOBILE SECTION */
 @media only screen and (max-width: 420px) {
+
 .parallax_section {
   height: 82vh;
   #content {
@@ -22,14 +22,13 @@ iframe {
   }
 }
   .btn_parallax {
+    display: flex;
+    justify-content: center;
+    margin-top: 33%;
+    position: sticky;
+    top: 100px;
 
-  display: flex;
-  justify-content: center;
-  margin-top: 33%;
-  position: sticky;
-  top: 100px;
-
-  a {
+    a {
       color: #fff;;
       font-size: 16px;
       border: 2px solid #fff;
@@ -37,39 +36,38 @@ iframe {
       padding-bottom: 2%;
       padding-left: 6%;
       padding-right: 6%;
-
-
-
-    &:hover {
-      text-decoration: none;
-    background-color: #e5e5e540;
-    color: #fff;
-    text-shadow: 1px 1px 2px #566573;
+      &:hover {
+        text-decoration: none;
+        background-color: #e5e5e540;
+        color: #fff;
+        text-shadow: 1px 1px 2px #566573;
+      }
     }
   }
+  #hero-pic {
+    margin-top: 0%
+  }
 }
-#hero-pic {
-  margin-top: 0%
-}
-}
+
 /* TABLET SECTION */
 @media only screen and (min-width:421px) and (max-width:1024px) {
+
 .parallax_section {
   height: 82vh;
+
   #content {
     height: 35vh;
   }
 }
   .btn_parallax {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: sticky;
+    top: 100px;
 
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
-   margin-bottom: 10%;
-  position: sticky;
-  top: 100px;
-
-  a {
+    a {
       color: #fff;;
       font-size: 16px;
       border: 2px solid #fff;
@@ -78,42 +76,39 @@ iframe {
       padding-left: 6%;
       padding-right: 6%;
 
-
-
-    &:hover {
-      text-decoration: none;
-    background-color: #e5e5e540;
-    color: #fff;
-    text-shadow: 1px 1px 2px #566573;
+      &:hover {
+        text-decoration: none;
+        background-color: #e5e5e540;
+        color: #fff;
+        text-shadow: 1px 1px 2px #566573;
+      }
     }
   }
-}
-#hero-pic {
-  margin-top: 0%
-}
-.video {
-  padding-bottom: 13%;
-  padding-top: 2%;
-  iframe {
-    height: 60vh;
+
+  #hero-pic {
+    margin-top: 0%
   }
 
+  .video {
+    padding-bottom: 13%;
+    padding-top: 2%;
 
-}
-
+    iframe {
+      height: 60vh;
+    }
+  }
 }
 
 /* DESKTOP SECTION */
 @media only screen and (min-width:1025px) {
-.btn_parallax {
+  .btn_parallax {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    position: sticky;
+    top: 100px;
 
-  display: flex;
-  justify-content: center;
-  margin-top: 7%;
-  position: sticky;
-  top: 100px;
-
-  a {
+    a {
       color: #fff;;
       font-size: 16px;
       border: 2px solid #fff;
@@ -125,28 +120,28 @@ iframe {
       margin-right: 35%;
 
 
-    &:hover {
-      text-decoration: none;
-    background-color: #e5e5e540;
-    color: #fff;
-    text-shadow: 1px 1px 2px #566573;
+      &:hover {
+        text-decoration: none;
+        background-color: #e5e5e540;
+        color: #fff;
+        text-shadow: 1px 1px 2px #566573;
+      }
     }
   }
-}
 }
 
 
 @media only screen and (max-width: 420px) {
 
-.video {
-  display: flex;
+  .video {
+    display: flex;
     justify-content: center;
-}
-    iframe {
-      margin-bottom: 20px;
-      height: fit-content;
-      margin-right: 5%;
-      margin-left: 5%;
-      position: relative;
     }
+  iframe {
+    margin-bottom: 20px;
+    height: fit-content;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+  }
 }

@@ -8,6 +8,7 @@
       padding-top: 5%;
       width: 100%;
     }
+
 /* titre effect */
     #titre_content_top {
       width: 70%;
@@ -26,7 +27,7 @@
       font-size: 18px;
       text-shadow: 1px 1px 2px #566573;
     }
-    /*************************/
+/*************************/
      h4 {
       margin: auto 55px;
       color: #8b9620;
@@ -44,8 +45,11 @@
 /* TABLET SECTION */
 
 @media only screen and (min-width:421px) and (max-width:1024px) {
+
   .section_content {
-    /* titre effect */
+    background-color: #d6dc9d;
+
+/* titre effect */
     #titre_content_top {
       width: 70%;
       margin-left: 8%;
@@ -55,6 +59,7 @@
       font-size: 18px;
       text-shadow: 1px 1px 2px #566573;
     }
+
     #titre_content_decale {
       margin-left: 20%;
       margin-bottom: 5%;
@@ -63,8 +68,8 @@
       font-size: 18px;
       text-shadow: 1px 1px 2px #566573;
     }
-    /*************************/
-    background-color: #d6dc9d;
+/*************************/
+
 
     img {
       padding-top: 5%;
@@ -92,11 +97,10 @@
     background-color: #8b962070;
 
     img {
-
       height: 100vh;
     }
 
-      /* titre effect */
+/* titre effect */
     #titre_content_top {
       width: 45%;
       margin-left: 15%;
@@ -106,6 +110,7 @@
       font-size: 34px;
       text-shadow: 1px 1px 2px #566573;
     }
+
     #titre_content_decale {
       font-weight: bold;
       margin-left: 20%;
@@ -115,7 +120,7 @@
       font-size: 34px;
       text-shadow: 1px 1px 2px #566573;
     }
-    /*************************/
+/*************************/
     p {
       margin: auto 20%;
       margin-bottom: 8rem;

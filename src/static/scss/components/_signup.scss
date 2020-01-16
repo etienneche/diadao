@@ -8,11 +8,9 @@
     top: 50px;
     position: sticky;
     z-index: -1;
-        background-size: cover;
-
+    background-size: cover;
 
     a {
-
       color: #fff;
       font-size: 16px;
       border: 1px solid #fff;
@@ -46,9 +44,9 @@
 
 /* TABLET SECTION */
 @media only screen and (min-width:421px) and (max-width:1024px) {
+
   .section_sign_up {
     padding-top: 60%;
-
 
     a {
       text-align: center;
@@ -107,6 +105,4 @@
     transition: all .5s;
     margin-bottom: 2em;
   }
-
-
 }

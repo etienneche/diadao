@@ -6,21 +6,22 @@
   height: 100px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
-}
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-  color:#8b9620;
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    &:hover {
+      opacity: 1;
+      color:#8b9620;
+    }
+  }
 }
 
 /* PUSH FOOTER ON BOTTOM PAGE */
@@ -28,20 +29,19 @@
   min-height: 100%;
   margin-bottom: -90px;
 }
+
 /* TABLET SECTION */
 @media only screen and (min-width:421px) and (max-width:1024px) {
-.footer,
- {
-  height: 80px;
+  .footer {
+    height: 80px;
     margin-top: 30%;
-        padding-top: 5%;
+    padding-top: 5%;
+  }
 }
-}
+
 /* DESKTOP SECTION */
 @media only screen and (min-width:1025px) {
-.footer,
- {
+.footer {
   height: 80px;
-
-}
+  }
 }
